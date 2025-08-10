@@ -1,0 +1,37 @@
+-Descrição : Progama em c++ que simula um jogo da velha, executado no terminal.
+-Integrantes: Hilário Filho, Luca Aureo
+-Como executar o programa:
+# 1. Instale o compilador g++ se ainda não tiver instalado.
+# 2. Abra o terminal e navegue até o diretório onde o arquivo "JogoDaVelha" está localizado. OU - Entre no VSCode e abrir o terminal integrado.
+# 3. Compile o programa usando o comando: g++ main.cpp Menu.cpp Jogo.cpp Tabuleiro.cpp Jogador.cpp Pessoa.cpp -o nomeDoExecutavel
+# 4. Execute o programa usando o comando: ./nomeDoExecutavel
+# 5. Siga as instruções exibidas no terminal para jogar o jogo da velha.
+- Funcionalidades:
+# 1. Jogo da velha para dois jogadores.
+# 2. Tabuleiro exibido no terminal.
+# 3. Jogadores podem escolher entre jogar como "X" ou "O".
+# 4. Verificação de vitória e empate.
+# 6. Opção de sair do jogo.
+# 7. Menu de opções para iniciar o jogo ou sair.
+# 8. Código modularizado em classes para melhor organização.
+# 9. Uso de ponteiros para manipulação de objetos.
+# 10. Tratamento de erros para entradas inválidas.
+# 11. Comentários explicativos no código.
+# 12. Código estruturado e fácil de entender.
+# 13. Uso de funções para modularizar a lógica do jogo.
+# 14. Implementação de uma classe abstrata Jogador para diferentes tipos de jogadores.
+# 15. Implementação de uma classe Tabuleiro para gerenciar o estado do jogo.
+# 16. Implementação de uma classe Jogo para gerenciar a lógica do jogo.
+# 17. Implementação de uma classe Menu para gerenciar o menu do jogo.
+# 18. Implementação de uma classe Pessoa para representar jogadores humanos.
+#19. Implementaçao de uma classe Mensagem para exibir mensagens de vitorias e empates.
+
+destaques de Progamaçao orientada a objetos:
+  1. Uso de classes para encapsular a lógica do jogo, como Tabuleiro, Jogo, Jogador, Pessoa e Menu.
+  2. Implementação de herança com a classe Jogador como classe abstrata e Pessoa como uma classe derivada.
+  3. Uso de ponteiros para manipulação de objetos, permitindo flexibilidade na criação e destruição de instâncias.
+  4. Modularização do código em diferentes arquivos para melhor organização e legibilidade.
+  5. Tratamento de erros e validação de entradas do usuário para garantir uma experiência de jogo robusta.
+  6. Implementação de métodos para gerenciar o fluxo do jogo, como iniciar, jogar e verificar condições de vitória.
+  7. Uso de comentários explicativos para facilitar a compreensão do código e sua manutenção.
+  8. Implementação de uma classe Mensagem para exibir mensagens de vitória e empate, melhorando a experiência do usuário.
